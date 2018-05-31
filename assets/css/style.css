@@ -1,0 +1,406 @@
+
+
+#topbar{
+    width: 1390px;
+    height:110px;
+    position:relative;
+    bottom: 20px;
+    background-color: white;
+    border-bottom: 1px solid grey;
+    right: 10px;
+    z-index: 2;
+    
+    
+    
+
+}
+
+#tealbox{
+    display:inline;
+    height: 100px;
+    width: 250px;
+    background-color:#4aaaa5;
+    position: absolute;
+    left: 210px;
+    top: 11px;
+    z-index: -3;
+    
+}
+
+#hbformat{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 8px;
+    
+}
+
+#pageheader{
+    display:inline;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    color:white;
+    position: absolute;
+    left: 226px;
+    top: 42px;
+    
+
+}
+
+#linkposition{
+    position:absolute;
+    top: 46%;
+    left: 67%;
+    
+}
+
+#margin{
+    margin:10px;
+}
+
+#pagelinks{
+    text-decoration:none;
+     color:#777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin:0px;
+    
+    
+        
+}
+
+#pagelinksb{
+     color:#777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin:0px;
+    
+    
+        
+}
+
+#pagelinksc{
+    color:#777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin:0px;
+    
+}
+
+a{
+    text-decoration:none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     color:#777777;
+}
+
+#pagelinks a:link{
+    text-decoration: none;
+    color:#777777;
+    
+}
+
+#pagelinks a:active{
+    text-decoration: none;
+    color:#777777;
+    
+}
+
+#pagelinks a:visited{
+    text-decoration: none;
+    color:#777777;
+}
+
+#pagelinks a:hover{
+    text-decoration: none;
+    color:#777777;
+    
+}
+
+#contactheaders{
+     color:#777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 0;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size: 20px;
+    
+        
+}
+
+
+
+
+
+
+#bgimage{
+    background-image: url(../images/funky-lines.png);
+}
+
+#bodyformatting{
+    
+    margin: 0 180px;
+    
+    
+}
+
+#bodyformattingb{
+    
+    margin: 0 180px;
+    
+    
+}
+
+#secondheader{
+    color:#4aaaa5;
+    display:inline;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    
+   
+    
+    
+}
+
+#whitebox{
+    background-color: white;
+    border: 20px solid white;
+    margin: 25px 10px 30px 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+
+#profilepic{
+    position:relative;
+    float:left;
+    height:25%;
+    width:25%;
+    padding: 1% 1%;
+    margin-right: 15px;
+    
+}
+
+#pformat
+{
+    margin: 0 0;
+}
+
+#bottombar{
+   width:3500px;
+    height:80px;
+    position:relative;
+    right: 10px;
+    top: 40px;
+    background-color: #666666;
+    border-top: 5px solid green;
+    width:1390px;
+    height:80px;
+    z-index: 2;
+}
+
+#textalign{
+    text-align:center;
+    position:relative;
+    top:95px;
+    z-index:5;
+    color:grey;
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+
+
+
+clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    }
+
+#backgroundimage{
+    background-image: url(../images/white-linen-paper-texture.jpg);
+}
+
+#inputa{
+    width: 100%;
+}
+
+#inputb{
+    width:100%;
+    height:500px;
+    
+    
+}
+
+#contactbutton{
+    
+    width:20%;
+    height:30px;
+    margin-top:10px;
+    margin-bottom:10px;
+    position: relative;
+    top: 10px;
+    
+}
+
+.contactbuttonb [type='text'] { 
+    font-size: 24px; font-family: monospace; 
+    
+    
+}
+
+#portfolioimages{
+    height:200px;
+    width:250px;
+    margin: 10px;
+}
+
+#portfolioimageb{
+    display:inline;
+    height:200px;
+    width:250px;
+    margin: 10px;
+}
+
+#labelcenter{
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:white;
+    margin: 10px;
+    width: 250px;
+    height:60px;
+    text-align:center;
+    font-size: 35px;
+    position: relative;
+    bottom: 80px;
+    left: 80px;
+    z-index:5;
+    
+    
+     
+    
+}
+
+#labelbg{
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:white;
+    margin: 10px;
+    width: 250px;
+    height:60px;
+    text-align:center;
+    font-size: 35px;
+    position: relative;
+    bottom: 140px;
+    z-index:4;
+    
+}
+
+#hiddn{
+    visibility: hidden;
+}
+
+#portfolioformat{
+    float:left;
+    
+}
+
+#positionportfolio{
+    position:relative;
+    bottom: 90px;
+}
+
+#block {
+    display:block;
+}
+
+@media only screen and (max-width: 768px) {
+        #tealbox{
+         display:inline;
+        height: 100px;
+        width: 250px;
+        background-color:#4aaaa5;
+        position: absolute;
+        left: 50px;
+        top: 11px;
+        z-index: -3;
+            }
+    
+    #bodyformattingb{
+        margin: 0 20px;
+    }
+    
+    #bodyformatting{
+        margin: 0 20px;
+    }
+    
+    #pageheader{
+    display:inline;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    color:white;
+    position: absolute;
+    left: 66px;
+    top: 42px;
+    
+
+}
+    
+    #linkposition{
+    position:absolute;
+    top: 46%;
+    left: 34%;
+    
+}
+
+            }
+            
+              @media only screen and (max-width: 640px) {
+        #tealbox{
+         display:inline;
+        height: 100px;
+        width: 640px;
+        background-color:#4aaaa5;
+        position: absolute;
+        left: 2px;
+        top: 11px;
+        z-index: -3;
+            }
+                  
+                  #topbar{
+    width: 640px;
+    height:170px;
+    position:relative;
+    bottom: 20px;
+    background-color: white;
+    border-bottom: 1px solid grey;
+    right: 10px;
+    z-index: 2;
+    
+    
+    
+
+}
+                  
+                  #pageheader{
+    display:inline;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    color:white;
+    position: absolute;
+    left: 200px;
+    top: 42px;
+            }
+                  
+                  #linkposition{
+    position:absolute;
+    top: 77%;
+    left: 31%;
+    
+}
+                  
+                  #bodyformattingb{
+        margin: 0 10px;
+    }
+                  #bodyformatting{
+        margin: 0 10px;
+    }
+
+                  
+}
